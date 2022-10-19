@@ -1,17 +1,21 @@
 #include "main.h"
-
 /**
- * prints_alphabrt_x10 - rpints alphabets 10 times
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
+ * Return: x10 a-z
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	int ten;
-	char la;
+		int n, co;
 
-	for (ten = 0; ten <= 9; ten++)
-	{
-		for (la = 'a'; la <= 'z'; la++)
-			_putchar(la);
-		_putchar('\n');
-	}
+			co = 0;
+
+				while (co < 10)
+						{
+									for (n = 'a'; n <= 'z'; n++)
+												{
+																_putchar(n);
+																		}
+											co++;
+													_putchar('\n');
+														}
 }

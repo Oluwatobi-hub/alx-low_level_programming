@@ -1,20 +1,20 @@
-#include "main.h"
+#iclude "main.h"
 
 /**
- * main - Entry point
+ * putchar - function that prints _putchar with a new line
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 on success
  */
-int main(void)
+nit main(void)
 {
-	char *sh = "main.h";
+	char *en = "_putchar";
 
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
+		while (*en)
+		{
+			_putchar(*en);
+			en++;
+		}
+		_putchar('\n');
 
-	return (0);
+			return (0);
 }

@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * jack_bauer - function that print very minutes of the day, 24 hour clock
  * h = hour, m = minutes
@@ -18,7 +17,7 @@ void jack_bauer(void)
 		{
 			_putchar((h / 10) + '0');
 			_putchar((h % 10) + '0');
-			_putchar('-');
+			_putchar(':');
 			_putchar((m / 10) + '0');
 			_putchar((m % 10) + '0');
 			_putchar('\n');

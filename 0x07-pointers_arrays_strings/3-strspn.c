@@ -17,3 +17,22 @@ int _includes(char *str, char c)
 	}
 return (0);
 }
+
+/**
+ * _strspn - function that gets the length of a prefix substring
+ * @s: is the pointer
+ * @accept: it is the validation that accepts
+ * Return: count.
+ */
+
+unsigned int _strspn(char *s, char *accept)
+{
+	unsigned int i, count = 0;
+
+	for (i = 0; *(s + i) != '\0'; i++)
+		if (_includes(accept, *(s + i)))
+			count++;
+		else
+			break;
+	return (count);
+}
